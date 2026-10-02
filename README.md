@@ -51,7 +51,7 @@ The password hash was then generated with:
 mkpasswd --method=sha-512
 ```
 
-The playbook can be executed with:
+Also, the playbook have to refer to the correct SSH key. The playbook can be executed with:
 
 ```bash
 ansible-playbook create_user.yml --ask-become-pass
